@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "@/App.css";
 
-const Home = React.lazy(() => import('./pages/Home'));
+const Home = React.lazy(() => import("@/pages/Home"));
 
 function App() {
   return (
